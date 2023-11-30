@@ -15,7 +15,6 @@ def remove_empty_folders(path, remove_root=True):
     # видалення пустих папок
     files = os.listdir(path)
     if len(files) == 0 and remove_root:
-        print("Removing empty folder:", path)
         os.rmdir(path)
 
 
