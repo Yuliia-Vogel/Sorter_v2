@@ -7,6 +7,6 @@ setup(name='clean_folder',
       author='Yuliia Melnychenko',
       author_email='arwen.vogel@gmail.com',
       license='MIT',
-      packages='main, del_empty_dirs, normalization',
+      packages=['clean_folder'],
       install_requires=[],
       entry_points={'console_scripts': ['clean-folder = clean_folder.main:main']})
